@@ -1,0 +1,67 @@
+@import url('https://fonts.googleleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+.date{
+    width: 100vw;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 10;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.date h1{
+    transition: 0.5s;
+    margin: 0 20px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0.1em 0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+    -webkit-box-reflect: below 1px linear-gradient (transparent,#0005);
+}
+
+.date h2:hover{
+    transform: translateY(-10px);
+    color: pink;
+}
+
+.date h1:hover{
+    transform: translateY(-10px);
+    color: pink;
+}
+
+.clock{
+    font-size: 50px;
+    cursor: pointer;
+    color: pink;
+    font-weight: bolder;
+    margin-top: 550px;
+    margin-left: 650px;
+}
+
+.clock:hover{
+    transform: translateY(-10px);
+    color: white;
+}
+
